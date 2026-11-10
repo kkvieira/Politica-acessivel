@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Formulário de contato validado e membros da equipe Futuro Verde.">
+    <title>Contato — Futuro Verde</title>
+    <link rel="icon" type="image/png" href="img/favicon.png">
+    <link rel="stylesheet" href="css/estilo.css">
+</head>
+<body>
+    <a class="pular-conteudo" href="#conteudo">Pular para o conteúdo principal</a>
+    <header class="topo">
+        <div class="topo-interno">
+            <a class="marca" href="index.html" aria-label="Futuro Verde — página inicial">
+                <img src="img/favicon.png" alt="" width="42" height="42">
+                <span>Futuro Verde</span>
+            </a>
+            <nav aria-label="Menu principal">
+                <ul>
+                    <li><a href="index.html">Início</a></li>
+                    <li><a href="sobre.html">Sobre</a></li>
+                    <li><a href="projetos.html">Projetos</a></li>
+                    <li><a href="impacto.html">Impacto</a></li>
+                    <li><a href="acessibilidade.html">Acessibilidade</a></li>
+                    <li><a href="galeria.html">Galeria</a></li>
+                    <li><a href="midia.html">Mídia</a></li>
+                    <li><a href="noticias.html">Notícias</a></li>
+                    <li><a href="contato.html" aria-current="page">Contato</a></li>
+                    <li><a href="orcamento_hospedagem.html">Hospedagem</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main id="conteudo">
+        <header class="titulo-pagina">
+            <h1>Fale com a equipe</h1>
+            <p>Envie sua dúvida, sugestão de projeto ou relato de barreira de acessibilidade.</p>
+        </header>
+
+        <section class="bloco" aria-labelledby="form-titulo">
+            <h2 id="form-titulo">Formulário de contato</h2>
+            <p>Campos marcados com <span aria-hidden="true">*</span><span class="ajuda"> (obrigatório)</span> precisam ser preenchidos.</p>
+            <form id="form-contato" action="#" method="post">
+                <fieldset>
+                    <legend>Seus dados</legend>
+                    <div class="campo">
+                        <label for="nome">Nome completo *</label>
+                        <input type="text" id="nome" name="nome" required minlength="3" autocomplete="name" pattern="[A-Za-zÀ-ÿ' ]{3,}" aria-describedby="nome-ajuda">
+                        <span class="ajuda" id="nome-ajuda">Use apenas letras, com no mínimo 3 caracteres.</span>
+                    </div>
+                    <div class="campo">
+                        <label for="email">E-mail *</label>
+                        <input type="email" id="email" name="email" required autocomplete="email" placeholder="nome@exemplo.com">
+                    </div>
+                    <div class="campo">
+                        <label for="telefone">Telefone *</label>
+                        <input type="tel" id="telefone" name="telefone" required autocomplete="tel" pattern="\(?\d{2}\)?\s?\d{4,5}-?\d{4}" placeholder="(11) 91234-5678" aria-describedby="tel-ajuda">
+                        <span class="ajuda" id="tel-ajuda">Formato com DDD: (11) 91234-5678.</span>
+                    </div>
+                    <div class="campo">
+                        <label for="nascimento">Data de interesse ou visita *</label>
+                        <input type="date" id="nascimento" name="nascimento" required min="2026-01-01" max="2027-12-31">
+                    </div>
+                </fieldset>
+
+                <fieldset>
+                    <legend>Sua mensagem</legend>
+                    <div class="campo">
+                        <label for="assunto">Assunto *</label>
+                        <select id="assunto" name="assunto" required>
+                            <option value="">Selecione…</option>
+                            <option value="duvida">Dúvida sobre os projetos</option>
+                            <option value="sugestao">Sugestão para a comunidade</option>
+                            <option value="voluntariado">Quero ser voluntário(a)</option>
+                            <option value="acessibilidade">Relatar barreira de acessibilidade</option>
+                        </select>
+                    </div>
+                    <div class="campo">
+                        <label for="participantes">Número de participantes *</label>
+                        <input type="number" id="participantes" name="participantes" required min="1" max="50" step="1" value="1">
+                    </div>
+                    <div class="campo">
+                        <label for="mensagem">Mensagem *</label>
+                        <textarea id="mensagem" name="mensagem" rows="5" required minlength="10"></textarea>
+                    </div>
+                    <div class="campo-check">
+                        <input type="checkbox" id="aceite" name="aceite" required>
+                        <label for="aceite">Concordo que meus dados sejam usados exclusivamente para responder a este contato. *</label>
+                    </div>
+                </fieldset>
+
+                <div><button class="botao" type="submit">Enviar mensagem</button></div>
+                <p class="mensagem" id="retorno" tabindex="-1" role="status" aria-live="polite" hidden></p>
+            </form>
+        </section>
+
+        <section class="bloco" aria-labelledby="equipe">
+            <h2 id="equipe">Membros da equipe</h2>
+            <div class="grade">
+                <article class="cartao"><h3>Johnathan Victor Fernandes</h3><p>RA 47789299 — Estrutura HTML5 e semântica</p></article>
+                <article class="cartao"><h3>Jonathan De Lima Santos</h3><p>RGM 47421819 — CSS, responsividade e contraste</p></article>
+                <article class="cartao"><h3>João Vitor Da Silva Maia Domingos</h3><p>RGM 47685786 — Acessibilidade WCAG e testes</p></article>
+                <article class="cartao"><h3>Daniel Biazotto Michellão</h3><p>RGM 47506253 — Multimídia, galeria e formulário</p></article>
+                <article class="cartao"><h3>Kaiky Vieira Dos Santos</h3><p>RGM 1747419288 — GitHub, documentação e deploy no Railway</p></article>
+            </div>
+        </section>
+    </main>
+
+    <footer class="rodape">
+        <div class="rodape-interno">
+            <div>
+                <h2>Futuro Verde</h2>
+                <p>Sustentabilidade e impacto social, com a acessibilidade como prioridade.</p>
+                <p>Atividade A2 — Desenvolvimento Front-End para Web, UNICID.</p>
+            </div>
+            <div>
+                <h2>Equipe</h2>
+                <p>Johnathan Victor Fernandes · Jonathan De Lima Santos · João Vitor Da Silva Maia Domingos · Daniel Biazotto Michellão · Kaiky Vieira Dos Santos</p>
+            </div>
+            <div>
+                <h2>Contato</h2>
+                <p><a href="contato.html">Fale com a equipe</a></p>
+                <p><a href="acessibilidade.html">Recursos de acessibilidade</a></p>
+            </div>
+        </div>
+    </footer>
+    <script src="js/script.js"></script>
+</body>
+</html>

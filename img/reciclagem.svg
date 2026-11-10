@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" role="img" aria-labelledby="t">
+<title id="t">Três lixeiras de coleta seletiva: papel, metal e vidro</title>
+<defs><linearGradient id="g" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#e8f5e9"/><stop offset="1" stop-color="#c8e6c9"/></linearGradient></defs>
+<rect width="800" height="450" fill="url(#g)"/>
+<rect y="360" width="800" height="90" fill="#6aa84f"/><rect y="400" width="800" height="50" fill="#558b2f"/><rect x="130" y="200" width="120" height="160" rx="10" fill="#1976d2"/><rect x="122" y="188" width="136" height="20" rx="6" fill="#1976d2" opacity=".8"/><text x="190" y="300" font-size="22" font-family="Arial" text-anchor="middle" fill="#fff" font-weight="700">PAPEL</text><rect x="340" y="200" width="120" height="160" rx="10" fill="#f9a825"/><rect x="332" y="188" width="136" height="20" rx="6" fill="#f9a825" opacity=".8"/><text x="400" y="300" font-size="22" font-family="Arial" text-anchor="middle" fill="#fff" font-weight="700">METAL</text><rect x="550" y="200" width="120" height="160" rx="10" fill="#388e3c"/><rect x="542" y="188" width="136" height="20" rx="6" fill="#388e3c" opacity=".8"/><text x="610" y="300" font-size="22" font-family="Arial" text-anchor="middle" fill="#fff" font-weight="700">VIDRO</text>
+<text x="400" y="90" font-size="40" font-family="Arial" text-anchor="middle" fill="#2e7d32" font-weight="700">♻ Separe. Recicle.</text>
+</svg>

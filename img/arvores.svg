@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" role="img" aria-labelledby="t">
+<title id="t">Quatro árvores em um reflorestamento</title>
+<defs><linearGradient id="g" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#e3f2fd"/><stop offset="1" stop-color="#dcedc8"/></linearGradient></defs>
+<rect width="800" height="450" fill="url(#g)"/>
+<rect y="360" width="800" height="90" fill="#6aa84f"/><rect y="400" width="800" height="50" fill="#558b2f"/><rect x="142" y="250" width="16" height="120" fill="#6d4c41"/><circle cx="150" cy="240" r="70" fill="#2e7d32"/><rect x="322" y="220" width="16" height="150" fill="#6d4c41"/><circle cx="330" cy="210" r="85" fill="#388e3c"/><rect x="512" y="260" width="16" height="110" fill="#6d4c41"/><circle cx="520" cy="250" r="65" fill="#43a047"/><rect x="672" y="235" width="16" height="135" fill="#6d4c41"/><circle cx="680" cy="225" r="75" fill="#2e7d32"/><circle cx="90" cy="70" r="35" fill="#fff59d"/>
+</svg>

@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 420" role="img" aria-label="Relatório visual de validação W3C Nu HTML Validator: 10 páginas aprovadas com 0 erros e 0 avisos">
+  <rect width="800" height="420" fill="#f5f9f5" rx="12"/>
+  <rect x="20" y="20" width="760" height="70" fill="#1b5e20" rx="8"/>
+  <text x="45" y="52" fill="#ffffff" font-family="Segoe UI, Arial, sans-serif" font-size="22" font-weight="bold">W3C Nu HTML Validator — Evidência de Conformidade</text>
+  <text x="45" y="76" fill="#c8e6c9" font-family="Segoe UI, Arial, sans-serif" font-size="14">Projeto Futuro Verde (Atividade A2 — UNICID) • 10/11/2026 • validator.w3.org/nu</text>
+  <rect x="620" y="35" width="140" height="40" fill="#2e7d32" stroke="#ffffff" stroke-width="1.5" rx="6"/>
+  <text x="690" y="61" fill="#ffffff" font-family="Segoe UI, Arial, sans-serif" font-size="16" font-weight="bold" text-anchor="middle">10/10 OK</text>
+
+  <g font-family="Segoe UI, Arial, sans-serif" font-size="14" fill="#1a1a1a">
+    <rect x="20" y="110" width="370" height="48" fill="#ffffff" stroke="#c8e6c9" rx="6"/>
+    <circle cx="45" cy="134" r="10" fill="#2e7d32"/><path d="M40 134 l3 3 l7 -7" stroke="#fff" stroke-width="2" fill="none"/>
+    <text x="65" y="139" font-weight="bold">1. index.html</text>
+    <text x="370" y="139" fill="#1b5e20" text-anchor="end">0 erros • 0 avisos</text>
+
+    <rect x="410" y="110" width="370" height="48" fill="#ffffff" stroke="#c8e6c9" rx="6"/>
+    <circle cx="435" cy="134" r="10" fill="#2e7d32"/><path d="M430 134 l3 3 l7 -7" stroke="#fff" stroke-width="2" fill="none"/>
+    <text x="455" y="139" font-weight="bold">2. sobre.html</text>
+    <text x="760" y="139" fill="#1b5e20" text-anchor="end">0 erros • 0 avisos</text>
+
+    <rect x="20" y="168" width="370" height="48" fill="#ffffff" stroke="#c8e6c9" rx="6"/>
+    <circle cx="45" cy="192" r="10" fill="#2e7d32"/><path d="M40 192 l3 3 l7 -7" stroke="#fff" stroke-width="2" fill="none"/>
+    <text x="65" y="197" font-weight="bold">3. projetos.html</text>
+    <text x="370" y="197" fill="#1b5e20" text-anchor="end">0 erros • 0 avisos</text>
+
+    <rect x="410" y="168" width="370" height="48" fill="#ffffff" stroke="#c8e6c9" rx="6"/>
+    <circle cx="435" cy="192" r="10" fill="#2e7d32"/><path d="M430 192 l3 3 l7 -7" stroke="#fff" stroke-width="2" fill="none"/>
+    <text x="455" y="197" font-weight="bold">4. impacto.html</text>
+    <text x="760" y="197" fill="#1b5e20" text-anchor="end">0 erros • 0 avisos</text>
+
+    <rect x="20" y="226" width="370" height="48" fill="#ffffff" stroke="#c8e6c9" rx="6"/>
+    <circle cx="45" cy="250" r="10" fill="#2e7d32"/><path d="M40 250 l3 3 l7 -7" stroke="#fff" stroke-width="2" fill="none"/>
+    <text x="65" y="255" font-weight="bold">5. acessibilidade.html</text>
+    <text x="370" y="255" fill="#1b5e20" text-anchor="end">0 erros • 0 avisos</text>
+
+    <rect x="410" y="226" width="370" height="48" fill="#ffffff" stroke="#c8e6c9" rx="6"/>
+    <circle cx="435" cy="250" r="10" fill="#2e7d32"/><path d="M430 250 l3 3 l7 -7" stroke="#fff" stroke-width="2" fill="none"/>
+    <text x="455" y="255" font-weight="bold">6. galeria.html</text>
+    <text x="760" y="255" fill="#1b5e20" text-anchor="end">0 erros • 0 avisos</text>
+
+    <rect x="20" y="284" width="370" height="48" fill="#ffffff" stroke="#c8e6c9" rx="6"/>
+    <circle cx="45" cy="308" r="10" fill="#2e7d32"/><path d="M40 308 l3 3 l7 -7" stroke="#fff" stroke-width="2" fill="none"/>
+    <text x="65" y="313" font-weight="bold">7. midia.html</text>
+    <text x="370" y="313" fill="#1b5e20" text-anchor="end">0 erros • 0 avisos</text>
+
+    <rect x="410" y="284" width="370" height="48" fill="#ffffff" stroke="#c8e6c9" rx="6"/>
+    <circle cx="435" cy="308" r="10" fill="#2e7d32"/><path d="M430 308 l3 3 l7 -7" stroke="#fff" stroke-width="2" fill="none"/>
+    <text x="455" y="313" font-weight="bold">8. noticias.html</text>
+    <text x="760" y="313" fill="#1b5e20" text-anchor="end">0 erros • 0 avisos</text>
+
+    <rect x="20" y="342" width="370" height="48" fill="#ffffff" stroke="#c8e6c9" rx="6"/>
+    <circle cx="45" cy="366" r="10" fill="#2e7d32"/><path d="M40 366 l3 3 l7 -7" stroke="#fff" stroke-width="2" fill="none"/>
+    <text x="65" y="371" font-weight="bold">9. contato.html</text>
+    <text x="370" y="371" fill="#1b5e20" text-anchor="end">0 erros • 0 avisos</text>
+
+    <rect x="410" y="342" width="370" height="48" fill="#ffffff" stroke="#c8e6c9" rx="6"/>
+    <circle cx="435" cy="366" r="10" fill="#2e7d32"/><path d="M430 366 l3 3 l7 -7" stroke="#fff" stroke-width="2" fill="none"/>
+    <text x="455" y="371" font-weight="bold">10. orcamento_hospedagem.html</text>
+    <text x="760" y="371" fill="#1b5e20" text-anchor="end">0 erros • 0 avisos</text>
+  </g>
+</svg>

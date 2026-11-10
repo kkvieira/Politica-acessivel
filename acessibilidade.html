@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Medidas de inclusão para pessoas com deficiência adotadas no site e nos projetos.">
+    <title>Acessibilidade — Futuro Verde</title>
+    <link rel="icon" type="image/png" href="img/favicon.png">
+    <link rel="stylesheet" href="css/estilo.css">
+</head>
+<body>
+    <a class="pular-conteudo" href="#conteudo">Pular para o conteúdo principal</a>
+    <header class="topo">
+        <div class="topo-interno">
+            <a class="marca" href="index.html" aria-label="Futuro Verde — página inicial">
+                <img src="img/favicon.png" alt="" width="42" height="42">
+                <span>Futuro Verde</span>
+            </a>
+            <nav aria-label="Menu principal">
+                <ul>
+                    <li><a href="index.html">Início</a></li>
+                    <li><a href="sobre.html">Sobre</a></li>
+                    <li><a href="projetos.html">Projetos</a></li>
+                    <li><a href="impacto.html">Impacto</a></li>
+                    <li><a href="acessibilidade.html" aria-current="page">Acessibilidade</a></li>
+                    <li><a href="galeria.html">Galeria</a></li>
+                    <li><a href="midia.html">Mídia</a></li>
+                    <li><a href="noticias.html">Notícias</a></li>
+                    <li><a href="contato.html">Contato</a></li>
+                    <li><a href="orcamento_hospedagem.html">Hospedagem</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main id="conteudo">
+        <header class="titulo-pagina">
+            <h1>Acessibilidade e inclusão</h1>
+            <p>Pessoas com deficiência são público prioritário do Futuro Verde.</p>
+        </header>
+
+        <section class="bloco" aria-labelledby="no-site">
+            <h2 id="no-site">O que fizemos neste site</h2>
+            <div class="grade">
+                <article class="cartao">
+                    <h3>Deficiência visual</h3>
+                    <ul>
+                        <li>Textos alternativos descritivos em todas as imagens</li>
+                        <li>Estrutura semântica para leitores de tela</li>
+                        <li>Contraste alto entre texto e fundo (acima de 8:1)</li>
+                        <li>Texto que se ajusta ao zoom de até 200%</li>
+                    </ul>
+                </article>
+                <article class="cartao">
+                    <h3>Deficiência auditiva</h3>
+                    <ul>
+                        <li>Vídeo com legenda visual nos quadros e resumo em texto</li>
+                        <li>Transcrição textual completa do podcast em áudio</li>
+                        <li>Linguagem simples, direta e sem jargões</li>
+                    </ul>
+                </article>
+                <article class="cartao">
+                    <h3>Deficiência motora</h3>
+                    <ul>
+                        <li>Navegação completa pelo teclado (Tab, Shift+Tab, Enter)</li>
+                        <li>Link de salto “Pular para o conteúdo principal”</li>
+                        <li>Indicador de foco visível em todos os links e campos</li>
+                        <li>Áreas clicáveis amplas em botões e menus</li>
+                    </ul>
+                </article>
+                <article class="cartao">
+                    <h3>Deficiência intelectual e TEA</h3>
+                    <ul>
+                        <li>Layout limpo, consistente e previsível em todas as páginas</li>
+                        <li>Frases curtas, listas objetivas e títulos claros</li>
+                        <li>Sem reprodução automática de mídia ou animações bruscas</li>
+                    </ul>
+                </article>
+            </div>
+        </section>
+
+        <section class="bloco" aria-labelledby="tecnica">
+            <h2 id="tecnica">Recursos técnicos aplicados (WCAG 2.2)</h2>
+            <ul>
+                <li><code>lang="pt-BR"</code> em todas as páginas, orientando a pronúncia correta nos leitores de tela (NVDA e Narrador do Windows).</li>
+                <li>Landmarks HTML5 (<code>header</code>, <code>nav</code>, <code>main</code>, <code>section</code>, <code>article</code>, <code>footer</code>) e atributos ARIA como <code>aria-label</code>, <code>aria-labelledby</code>, <code>aria-describedby</code>, <code>aria-live="polite"</code> e <code>aria-current="page"</code>.</li>
+                <li>Todos os campos do formulário possuem <code>label</code> associado por <code>for</code> e instruções claras de preenchimento.</li>
+                <li>Respeito à preferência de movimento reduzido do sistema operacional (<code>prefers-reduced-motion: reduce</code>).</li>
+            </ul>
+        </section>
+
+        <section class="bloco" aria-labelledby="nos-projetos">
+            <h2 id="nos-projetos">Inclusão nos projetos presenciais</h2>
+            <p>As hortas comunitárias contam com canteiros elevados a 80 cm do solo para cadeirantes, e as oficinas oferecem intérprete de Libras e materiais em formatos acessíveis. A Lei Brasileira de Inclusão (Lei nº 13.146/2015) orienta todas essas medidas.</p>
+            <p>Encontrou alguma barreira? <a href="contato.html">Fale com a equipe</a> e ajude a melhorar o site.</p>
+        </section>
+    </main>
+
+    <footer class="rodape">
+        <div class="rodape-interno">
+            <div>
+                <h2>Futuro Verde</h2>
+                <p>Sustentabilidade e impacto social, com a acessibilidade como prioridade.</p>
+                <p>Atividade A2 — Desenvolvimento Front-End para Web, UNICID.</p>
+            </div>
+            <div>
+                <h2>Equipe</h2>
+                <p>Johnathan Victor Fernandes · Jonathan De Lima Santos · João Vitor Da Silva Maia Domingos · Daniel Biazotto Michellão · Kaiky Vieira Dos Santos</p>
+            </div>
+            <div>
+                <h2>Contato</h2>
+                <p><a href="contato.html">Fale com a equipe</a></p>
+                <p><a href="acessibilidade.html">Recursos de acessibilidade</a></p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
