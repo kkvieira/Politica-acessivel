@@ -168,8 +168,24 @@ main {
 
 /* ---------- Hero ---------- */
 .hero {
-    padding: clamp(40px, 7vw, 88px);
+    display: grid;
+    grid-template-columns: minmax(0, 1.35fr) minmax(240px, 340px);
+    align-items: center;
+    gap: clamp(24px, 4vw, 56px);
+    padding: clamp(36px, 6vw, 72px);
     border-radius: var(--r-xl);
+}
+
+.hero-media {
+    margin: 0;
+}
+
+.hero-media img {
+    display: block;
+    width: 100%;
+    aspect-ratio: 1 / 1;
+    border-radius: var(--r-lg);
+    object-fit: cover;
 }
 
 .eyebrow {
@@ -751,6 +767,14 @@ article.topic-card::after {
 }
 
 @media (max-width: 860px) {
+    .hero {
+        grid-template-columns: 1fr;
+    }
+
+    .hero-media {
+        max-width: 320px;
+    }
+
     .post-layout {
         grid-template-columns: 1fr;
     }
